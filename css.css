@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+ 
 }
 
 
@@ -12,11 +13,12 @@
 .header-main{
   width: auto;
   height: 300px;
-  background-color: black;
+  background-image: url(https://demo.riccardoborchi.it/crucio/HTML/assets/img/slider1.jpg);
   background-size: 100%;
 }
 #menu ul
 {
+  text-decoration: none;
   margin-top: 0px;
 margin-left: 550px;
 }
@@ -37,12 +39,12 @@ h1{
   text-align: center;
 }
 h2{
-  color: aliceblue;
+  color: rgb(21, 90, 150);
   text-align: center;
 }
 h4{
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .section.about{
@@ -69,4 +71,38 @@ h4{
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+}
+
+.section.dark {
+  padding: 50px ;
+  background-color: #AD00FF;
+  padding: 90px ;
+}
+.section.dark h2 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+.section.dark h3 {
+  color: #FFF;
+  line-height: 1.5;
+}
+.section {
+  float: left;
+  width: 100%;
+  background-color: #FFF;
+}
+*{
+  margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row.text-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: 45px;
+  text-decoration: none;
+  
 }
