@@ -32,6 +32,8 @@ margin-left: 50px;
 h5{
   color: aliceblue;
   text-align: center ;
+  margin-top: 200px;
+  margin-bottom: 100px;
   font-size: 50px;
 }
 h1{
@@ -105,4 +107,9 @@ h4{
   align-items: 45px;
   text-decoration: none;
   
+}
+.btn{
+  
+  text-align: center;
+  font-size: 30px;
 }
